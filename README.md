@@ -6,9 +6,9 @@
 
 3.- [Imprimir los elementos impares de la matriz](esquinas.c)
 
-4.- [Imprimir los elementos que no esten en las esquinasna](esquinas.c)
+4.- [Imprimir los elementos que no esten en las esquinas](esquinas.c)
 
-5.- Generar la matriz inversa](esquinas.c)
+5.- [Generar la matriz inversa](esquinas.c)
 
 6.- [Generar la matriz transpuesta](esquinas.c)
 
