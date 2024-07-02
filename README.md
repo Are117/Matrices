@@ -10,7 +10,7 @@
 
 5.- [Generar la matriz inversa]()
 
-6.- [Generar la matriz transpuesta]matriz_traspuesta.c)
+6.- [Generar la matriz transpuesta](matriz_traspuesta.c)
 
 7.- [Generar la matriz simetrica](simetrica.c)
 
