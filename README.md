@@ -8,7 +8,7 @@
 
 4.- [Imprimir los elementos que no esten en las esquinas](sin_esquinas.c)
 
-5.- [Generar la matriz inversa]()
+5.- [Generar la matriz inversa](inversa.c)
 
 6.- [Generar la matriz transpuesta](matriz_traspuesta.c)
 
@@ -20,5 +20,5 @@
 
 10.- [multiplicación de matrices](multiplicacion.c)
 
-11.- [suma de matrices en Hexadecimal](esquinas.c)
+11.- [suma de matrices en Hexadecimal](suma_hexadecimales.c)
 
