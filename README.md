@@ -20,6 +20,5 @@
 
 10.- [multiplicación de matrices](multiplicacion.c)
 
-11.- [división de matrices](esquinas.c)
+11.- [suma de matrices en Hexadecimal](esquinas.c)
 
-12.- [potencia de matrice](esquinas.c)
