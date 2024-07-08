@@ -22,6 +22,6 @@
 
 11.- [suma de matrices en Hexadecimal](suma_hexadecimales.c)
 
-12.- [Potencia](suma_hexadecimales.c)
+12.- [Potencia](potencia.c)
 
 
