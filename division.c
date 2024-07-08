@@ -27,7 +27,6 @@ static double matriz_inversa[3][3]; // Matriz que almacena la inversa extraida d
     return matriz_inversa;
 }
 
-
 void multiplicacion(int matriz[3][3], double matriz2[3][3], double matriz_resultante[3][3]) {
     int i, j, k;
     // Inicializar la matriz resultante con ceros
@@ -47,38 +46,37 @@ void multiplicacion(int matriz[3][3], double matriz2[3][3], double matriz_result
     }
 }
 
+
 int main() {
-    int matriz1[3][3]={{5,3,2},
+int matriz1[3][3]={{5,3,2},
                       {-1,2,3},
                       {3,0,1}};
 
-    printf("Matriz inicial:\n");//imprime la matriz inicial para que sea visible al usuario al momento de ejecutar el algoritmo.
-     for (int i = 0; i < 3; i++) {
+printf("Matriz inicial:\n");//imprime la matriz inicial para que sea visible al usuario al momento de ejecutar el algoritmo.
+    for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
             printf("%d ", matriz1[i][j]);
         }
         printf("\n");
     }
 
-    double matriz[3][6] = {//declaración de una matriz 3x6, pues incluye la matriz original unida a la matriz de identidad
+double matriz[3][6] = {//declaración de una matriz 3x6, pues incluye la matriz original unida a la matriz de identidad
         {5, 3, 2, 1, 0, 0},
         {-1, 2, 3, 0, 1, 0},
         {3, 0, 1, 0, 0, 1}};
 
-
 double (*matriz_inversa)[3] = calcular_inversa(matriz);//calcula la inversa tomando como argumento la matriz extendida de 3x6
 double matriz_resultante[3][3];//variable que almacena la matriz resultante
 multiplicacion(matriz1, matriz_inversa, matriz_resultante);//llamada al procedimiento para calcular la matriz por su inversa
-    
 
 //imprime la matriz resultante
-    printf("\nResultado de la matriz dividida para si misma:\n");//imprime la matriz inversa
+printf("\nResultado de la matriz dividida para si misma:\n");//imprime la matriz inversa
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
             printf("%.2f ", matriz_resultante[i][j]);
         }
         printf("\n");
     }
-
+    
     return 0;
 }
