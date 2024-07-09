@@ -3,14 +3,13 @@
 void potenciaMatriz(int matriz[3][3], int exponente) {
     int matriz_resultante[3][3];
 
-
-        // Calcula la potencia de la matriz
+//asigna los valores de la matriz a la matriz resultante
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 matriz_resultante[i][j] = matriz[i][j];
             }
         }
-        
+        // Calcula la potencia de la matriz        
         for (int k = 1; k < exponente; k++) {
             int matriz_resultante2[3][3];
             for (int i = 0; i < 3; i++) {
