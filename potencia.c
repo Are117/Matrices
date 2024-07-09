@@ -4,7 +4,7 @@ void potenciaMatriz(int matriz[3][3], int exponente) {
     int matriz_resultante[3][3];
 
 
-        // Calcular la potencia de la matriz
+        // Calcula la potencia de la matriz
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 matriz_resultante[i][j] = matriz[i][j];
@@ -29,7 +29,7 @@ void potenciaMatriz(int matriz[3][3], int exponente) {
             }
         }
 
-    // Mostrar el resultado
+    // Muestra el resultado
     printf("La matriz:\n");
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
